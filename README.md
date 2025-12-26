@@ -59,5 +59,115 @@ Pydantic Validation
 Dashboard Display + PDF Report
 ```
 
+---
+
+## 📂 Project Structure
+
+```text
+NutriAI/
+│
+├── app.py # Streamlit frontend
+├── ai_dietitian.py # AI interaction logic
+├── models.py # Pydantic data models
+├── pdf_generator.py # PDF report generation
+├── config.py # Environment configuration
+├── requirements.txt
+├── .env # API keys (not committed)
+└── README.md
+```
+
+---
+
+## 🧪 Data Validation & Reliability
+
+NutriAI uses a **schema-first design** to ensure reliability and correctness.
+
+### Core Data Models
+- UserProfile  
+- WeeklyDietPlan  
+- DailyPlan  
+- MealPlan  
+- NutritionInfo  
+
+All AI-generated outputs are **strictly validated** before being used or displayed, preventing hallucinated or malformed data.
+
+---
+
+## 🖥️ User Interface
+
+### Sidebar (Input Panel)
+- Age, Height, Weight  
+- Activity Level  
+- Health Goal  
+- Dietary Restrictions  
+- Allergies, Preferences & Budget  
+
+### Dashboard (Output Panel)
+- Weekly calorie & macro summary  
+- Expandable daily meal plans  
+- Meal-wise nutrition breakdown  
+- One-click PDF download  
+
+---
+
+## 📄 PDF Report
+
+The system generates a **professional, print-ready PDF** containing:
+- User profile summary  
+- Complete 7-day diet plan  
+- Nutritional breakdown  
+- Consolidated grocery shopping list  
+
+---
+
+## ⚙️ Tech Stack
+
+### Programming Language
+- Python 3.10+
+
+### Frontend
+- Streamlit
+
+### AI & Intelligence
+- Google Gemini API (gemini-2.5-flash)
+
+### Data Validation
+- Pydantic
+
+### Reporting
+- ReportLab
+
+### Security
+- python-dotenv
+
+---
+
+## ▶️ Installation & Execution
+
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/your-username/NutriAI.git
+cd NutriAI
+```
+### Step 2: Create Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+```
+### Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### Step 4: Configure Environment Variables
+Create a .env file:
+```bash
+GEMINI_API_KEY=your_api_key_here
+GEMINI_MODEL=gemini-2.5-flash
+```
+### Step 5: Run the Application
+```bash
+streamlit run app.py
+```
+
 
 
