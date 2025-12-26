@@ -7,12 +7,12 @@ It bridges the gap between **expensive human dietitians** and **generic calorie-
 
 ## 🚀 Key Features
 
-- 🧠 Agentic AI reasoning for diet planning  
-- 📊 Structured and validated AI output using Pydantic  
-- 🇮🇳 Indian food–friendly and culturally adaptive plans  
-- 🧾 Automated professional PDF diet report generation  
-- ⚡ Low-latency AI responses  
-- 🔒 Privacy-first, stateless architecture  
+-  Agentic AI reasoning for diet planning  
+-  Structured and validated AI output using Pydantic  
+-  Indian food–friendly and culturally adaptive plans  
+-  Automated professional PDF diet report generation  
+-  Low-latency AI responses  
+-  Privacy-first, stateless architecture  
 
 ---
 
@@ -42,5 +42,19 @@ NutriAI addresses these issues using **LLM-based constrained reasoning**, produc
 ---
 
 ## 🏗️ System Architecture
+
+User (Streamlit UI)
+↓
+UserProfile (Pydantic Schema)
+↓
+Prompt Engineering + Constraints
+↓
+Google Gemini AI
+↓
+Structured JSON Output
+↓
+Pydantic Validation
+↓
+Dashboard Display + PDF Report
 
 
