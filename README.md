@@ -43,6 +43,7 @@ NutriAI addresses these issues using **LLM-based constrained reasoning**, produc
 
 ## 🏗️ System Architecture
 
+```text
 User (Streamlit UI)
 ↓
 UserProfile (Pydantic Schema)
@@ -56,5 +57,7 @@ Structured JSON Output
 Pydantic Validation
 ↓
 Dashboard Display + PDF Report
+```
+
 
 
