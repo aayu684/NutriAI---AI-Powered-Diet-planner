@@ -186,6 +186,10 @@ streamlit run app.py
 NutriAI demonstrates how agentic AI + structured validation can build trustworthy, real-world health applications.
 It shifts diet planning from static templates to dynamic reasoning, marking a significant step toward AI-assisted preventive healthcare.
 
+## 👨‍💻 Made by
+- **Aayushi soni** – [GitHub](https://github.com/aayu684) | [LinkedIn](https://www.linkedin.com/in/aayushisoni6295/)
+- **Ishitaba Umat** – [GitHub](https://github.com/IshitaUmat) | [LinkedIn](https://www.linkedin.com/in/ishita-umat-4a8791282/)
+
 
 
 
