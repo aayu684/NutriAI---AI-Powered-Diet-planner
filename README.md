@@ -169,5 +169,24 @@ GEMINI_MODEL=gemini-2.5-flash
 streamlit run app.py
 ```
 
+## 🎯 Future Enhancements 
+
+- 📷 Food recognition via images (Vision AI)
+
+- ⌚ Wearable integration (Fitbit / Google Fit)
+
+- 🛒 Grocery app integrations
+
+- 🔁 Long-term preference memory
+
+- 📈 Reinforcement learning from user feedback
+
+## 📌 Conclusion
+
+NutriAI demonstrates how agentic AI + structured validation can build trustworthy, real-world health applications.
+It shifts diet planning from static templates to dynamic reasoning, marking a significant step toward AI-assisted preventive healthcare.
+
+
+
 
 
