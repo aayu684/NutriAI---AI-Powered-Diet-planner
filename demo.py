@@ -14,7 +14,7 @@ from pdf_generator import DietPlanPDFGenerator
 load_dotenv()
 
 # Use your API key here
-API_KEY = os.getenv("AIzaSyDNF0dCuEJCKHjRnPpqIdrjWrEKKxtNoTQ")
+API_KEY = os.getenv("your_api_key")
 API_URL = "https://api.gemini.ai/v1/generate"
 
 def generate_diet_plan(user_data):
